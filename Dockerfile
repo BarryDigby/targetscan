@@ -16,12 +16,12 @@ RUN apt-get update; apt-get clean all;
 RUN apt-get install --yes build-essential \
                           gcc-multilib \
                           apt-utils \
-                                      curl \
+                          curl \
                           perl \
-                                      zip \
+                          zip \
                           expat \
                           libexpat-dev \
-                                      cpanminus \
+                          cpanminus \
                           libxml-libxml-perl \
                           libxml-dom-xpath-perl \
                           libxml-libxml-simple-perl \
